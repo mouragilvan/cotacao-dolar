@@ -17,17 +17,17 @@
                   #input_cotacao_real{
                       font-weight: bold;
                       font-size: 14px;
-                      width:300px;
+                      width:230px;
                   }
                   #cotacao_input_dolar{
-                    width:300px;
+                    width:230px;
                   }
                   .cotacao_dolar_class_atualizacao{
                       padding: 5px 0px;
                       color: blue;
                   }
                   .cotacao_title{
-                    font-size:14.5px;
+                    font-size:13px;
                   }
                 </style> 
                 <label class="cotacao_title">Digite o valor em reais e em seguida aperte ENTER</label>     
