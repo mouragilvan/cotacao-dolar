@@ -11,6 +11,6 @@ Importe o arquivo JS do CDN
 ```
 <script
   type="text/javascript"
-  src="https://cdn.jsdelivr.net/gh/mouragilvan/cotacao-dolar@1.0.3/cotacao-dolar.js">
+  src="https://cdn.jsdelivr.net/gh/mouragilvan/cotacao-dolar@1.0.4/cotacao-dolar.js">
 </script>
 ```
