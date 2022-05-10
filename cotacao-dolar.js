@@ -1,6 +1,6 @@
 /**
  * @author GILVAN MORAES DE MOURA
- * @version 1.0.3
+ * @version 1.0.4
 */
 
 var url = "https://economia.awesomeapi.com.br/last/USD-BRL";
@@ -49,7 +49,7 @@ var url = "https://economia.awesomeapi.com.br/last/USD-BRL";
         setTimeout(function() {
             var inputDolar = document.getElementById("cotacao_input_dolar");
             
-            inputDolar.addEventListener("change", function() {
+            inputDolar.addEventListener("keyup", function() {
                  if(this.value=="" || this.value <= 0){
                     alert(`O valor informado está inválido!!!`);
                     inputDolar.style.cssText = "border: 2px solid red;";
