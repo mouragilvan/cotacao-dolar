@@ -1,9 +1,9 @@
 /**
  * @author GILVAN MORAES DE MOURA
- * @version 1.0.0
+ * @version 1.0.2
 */
 
-        var url = "https://economia.awesomeapi.com.br/last/USD-BRL";
+var url = "https://economia.awesomeapi.com.br/last/USD-BRL";
         var real = null;
         fetch(url).then(response => response.json()).then(
             function(responseData) {
@@ -37,7 +37,7 @@
                 </label>
                 <br><br>
                 <label>Real brasileiro<br>
-                <input type="text" value="${real.toFixed(2)}" id="input_cotacao_real" disabled/>
+                <input type="text" value="R$ ${real.toFixed(2)}" id="input_cotacao_real" disabled/>
                 </label>                
                 <p id="cotacao_dolar_data">Atualizado em:</br><span class="cotacao_dolar_class_atualizacao">${dataCotacao.toLocaleDateString('pt-BR')} ${dataCotacao.getHours()} : ${dataCotacao.getMinutes()}</span></p>
                `;
