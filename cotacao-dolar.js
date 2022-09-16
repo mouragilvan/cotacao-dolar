@@ -30,7 +30,7 @@ var url = "https://economia.awesomeapi.com.br/last/USD-BRL";
                     font-size:13px;
                   }
                 </style> 
-                <label class="cotacao_title">Digite o valor em reais e em seguida aperte ENTER</label>     
+                <label class="cotacao_title">Digite o valor do dólar -  e em seguida aperte ENTER</label>     
                 <br><br>         
                 <label>Dólar<br>
                 <input type="text" value="1" id="cotacao_input_dolar" title="INFORME O VALOR EM REAIS"/>
